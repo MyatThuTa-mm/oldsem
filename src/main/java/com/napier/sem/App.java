@@ -87,7 +87,7 @@ public class App
                             "AND employees.emp_no = titles.emp_no\n" +
                             "AND salaries.to_date = '9999-01-01'\n" +
                             "AND titles.to_date = '9999-01-01'\n" +
-                            "AND titles.title = '<title>'\n" +
+                            "AND titles.title = 'Engineer'\n" +
                             "ORDER BY employees.emp_no ASC";
             // Execute SQL statement
             ResultSet rset = stmt.executeQuery(strSelect);
